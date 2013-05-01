@@ -1,8 +1,9 @@
 Simple::Application.routes.draw do
-  get "staticpages/home"
+  get "static_pages/home"
 
-  get "staticpages/help"
+  get "static_pages/help"
 
+  get "static_pages/about"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
