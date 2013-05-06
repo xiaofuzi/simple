@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "StaticPages" do
   describe "GET /static_pages" do
     it "should have the content 'simple app'" do
-      visit '/static_pages/home'
+      visit root_path
       page.should have_content('simple app')
     end
   describe "Help page" do
